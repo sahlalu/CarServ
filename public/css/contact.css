@@ -1,0 +1,156 @@
+.contact {
+    padding-top: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+form {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+textarea {
+    resize: vertical;
+    height: 150px;
+}
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button[type="submit"]:hover {
+    background-color: #555;
+}
+.location-info {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+}
+.location-info h2 {
+    margin-top: 0;
+}
+.thank-you {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Container styles */
+#faqdiv {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* FAQ styles */
+  .faq {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .faq:hover {
+    background-color: #e9e9e9;
+    transform: scale(1.02);
+  }
+  
+  .faq p {
+    margin: 10px 0;
+  }
+  
+  /* Contact Form styles */
+  .contact {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .contact form {
+    margin-top: 10px;
+  }
+  
+  .contact label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .contact input[type="text"],
+  .contact input[type="email"],
+  .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Location styles */
+  .location-info {
+    margin-top: 20px;
+  }
+  
+  .location-info h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .thank-you {
+    font-style: italic;
+    margin-top: 20px;
+  }
+  
+  /* Header styles */
+  h2 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+  

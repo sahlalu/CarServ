@@ -1,0 +1,146 @@
+html {
+  font-size: 10px;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body,
+#root,
+.App,
+.main,
+.fullHeight {
+  height: 100%;
+  
+}
+
+*, ::before, ::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1;
+}
+
+h1,
+h2 {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0 auto 2rem;
+  text-align: left;
+  font-weight: 400;
+  text-transform: uppercase;
+  border-bottom: #d3d3d3;
+}
+
+h1 {
+  font-size: 3.0rem;
+  line-height: 3.2rem;
+  color: #000000;
+}
+
+h2 {
+  font-size: 2.5rem;
+  line-height: 2.7rem;
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a, a:hover {
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.main {
+  flex: 1;
+  width: 100%;
+  padding: 0 10px;
+  margin: 0 auto;
+  max-width: auto; /* Adjust for responsiveness */
+  height: auto; /* Removed fixed height for responsiveness */
+}
+
+.controlPanel {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  min-height: 95vh;
+  padding: 3rem 0 6rem 25.0rem;
+  border-bottom: 1px solid #d3d3d3;
+
+  .sidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25.0rem;
+    height: 100%;
+    z-index: 1;
+    border-right: 1px solid #d3d3d3;
+  }
+
+  .content {
+    padding: 0 10px;
+  }
+}
+
+.adminLayout {
+  height: auto; /* Removed fixed height for responsiveness */
+}
+
+.dashboardLayout {
+  height: auto; /* Removed fixed height for responsiveness */
+}
+
+.mainlay-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.mainlay {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1;
+}
+
+/* Added mobile-first media query for screens up to 980px */
+@media only screen and (max-width: 980px) {
+  html {
+    font-size: 9px;
+  }
+
+  .main {
+    padding: 0; /* Adjust as needed */
+    max-width: 100%; /* Allow content to take full width */
+  }
+
+  .controlPanel {
+    padding: 0 10px;
+
+    .sidebar {
+      position: relative;
+      width: 100%;
+      border: none;
+      margin-bottom: 2.5rem;
+    }
+  }
+}

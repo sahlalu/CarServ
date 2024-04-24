@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>CarServ - Services</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Ubuntu:wght@400;500&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+        <!--Top bar start-->
+
+        <div class="container-fluid bg-light p-0">
+            <div class="row gx-0 d-none d-lg-flex">
+                <div class="col-lg-7 px-5 text-start">
+                    <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                        <small class="fa fa-map-marker-alt text-primary me-2"></small>
+                        <small>Sarovoday Nagar, Ambarnath, Thane</small>
+                    </div>
+                    <div class="h-100 d-inline-flex align-items-center py-3">
+                        <small class="far fa-clock text-primary me-2"></small>
+                        <small>Mon - Fri : 09.00 AM - 09.00 PM</small>
+                    </div>
+                </div>
+                <div class="col-lg-5 px-2 text-end">
+                    <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                        <small class="fa fa-phone-alt text-primary me-2"></small>
+                        <small>9322309947</small>
+                    </div>
+                    <div class="h-100 d-inline-flex align-items-center">
+                        <a class="btn btn-sm-square bg-white text-primary me-1" href="https://www.facebook.com/"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-sm-square bg-white text-primary me-1" href="https://twitter.com/"><i
+                                class="fab fa-twitter"></i></a>
+                        <a class="btn btn-sm-square bg-white text-primary me-1" href="https://in.linkedin.com/"><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-sm-square bg-white text-primary me-1" href="https://www.instagram.com/"><i
+                                class="fab fa-instagram"></i></a>
+                    </div>
+                    <div class="h-100 d-inline-flex align-items-center ">
+                        <a href="/" target="_top" class="btn btn-primary py-2 px-lg-3 d-none d-lg-block">Go back<i
+                                class="fa fa-arrow-right ms-3"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Top bar end-->
+    
+        <!--Nav bar start-->
+    
+        <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+            <a href="index2.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+                <h2 class="m-0 text-primary"><i class="fa fa-car me-3"></i>CarServ</h2>
+            </a>
+            <button type="button" class="navbar-toggler me-2">
+                <span class="material-symbols-outlined">
+                    <a href="/" target="_top">home</a>
+                </span>
+            </button>
+            <button type="button" class="navbar-toggler me-2">
+                <span class="material-symbols-outlined" >
+                    <a href="booking.html">content_paste</a>
+                </span>
+            </button>
+            <button type="button" class="navbar-toggler me-2" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a href="index2.html" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="service.html" class="nav-item nav-link">Services</a>
+                    <a href="/" target="_top" class="nav-item nav-link">Buy from Us</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                        <div class="dropdown-menu fade-up m-0">
+                            <a href="booking.html" class="dropdown-item">Booking</a>
+                            <a href="team.html" class="dropdown-item">Technicians</a>
+                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                            <a href="service.html" class="dropdown-item">Services</a>
+                            <a href="about.html" class="dropdown-item">About Us</a>
+                            <a href="contact.html" class="dropdown-item">Contact Us</a>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+                <a href="booking.html" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Get A Quote<i
+                        class="fa fa-arrow-right ms-3"></i></a>
+            </div>
+            </div>
+            </div>
+        </nav>
+    
+        <!--Nav bar end-->
+    
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header mb-5 p-0" style="background-image: url(img/carousel-bg-2.jpg);">
+        <div class="container-fluid page-header-inner py-5">
+            <div class="container text-center">
+                <h1 class="display-3 text-white mb-3 animated slideInDown">Services</h1>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb justify-content-center text-uppercase">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item text-white active" aria-current="page">Services</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+
+   <!-- Service Start -->
+   <div class="container-xxl service py-5">
+    <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="text-primary text-uppercase">Our Services</h6>
+            <h1 class="mb-5">Explore Our Services</h1>
+        </div>
+        <div class="row g-4 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="col-lg-4">
+                <div class="nav w-100 nav-pills me-4">
+                    <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4 active" data-bs-toggle="pill" data-bs-target="#tab-pane-1" type="button">
+                        <i class="fa fa-car-side fa-2x me-3"></i>
+                        <h4 class="m-0">Diagnostic Test</h4>
+                    </button>
+                    <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-2" type="button">
+                        <i class="fa fa-car fa-2x me-3"></i>
+                        <h4 class="m-0">Engine Servicing</h4>
+                    </button>
+                    <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-3" type="button">
+                        <i class="fa fa-cog fa-2x me-3"></i>
+                        <h4 class="m-0">Tires Replacement</h4>
+                    </button>
+                    <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-0" data-bs-toggle="pill" data-bs-target="#tab-pane-4" type="button">
+                        <i class="fa fa-oil-can fa-2x me-3"></i>
+                        <h4 class="m-0">Oil Changing</h4>
+                    </button>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="tab-content w-100">
+                    <div class="tab-pane fade show active" id="tab-pane-1">
+                        <div class="row g-4">
+                            <div class="col-md-6" style="min-height: 350px;">
+                                <div class="position-relative h-100">
+                                    <img class="position-absolute img-fluid w-100 h-100" src="img/service-1.jpg"
+                                        style="object-fit: cover;" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <h3 class="mb-3">15 Years Of Experience In Auto Servicing</h3>
+                                <p class="mb-4">Trust our seasoned team of automotive experts to provide top-notch repairs and maintenance for your vehicle. With 15 years of dedicated service, we've honed our skills to perfection.</p>
+                                <p><i class="fa fa-check text-success me-3"></i>Quality Servicing</p>
+                                <p><i class="fa fa-check text-success me-3"></i>Expert Workers</p>
+                                <p><i class="fa fa-check text-success me-3"></i>Modern Equipment</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="tab-pane-2">
+                        <div class="row g-4">
+                            <div class="col-md-6" style="min-height: 350px;">
+                                <div class="position-relative h-100">
+                                    <img class="position-absolute img-fluid w-100 h-100" src="img/service-2.jpg"
+                                        style="object-fit: cover;" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <h3 class="mb-3">15 Years Of Experience In Auto Servicing</h3>
+                                <p class="mb-4">Trust our seasoned team of automotive experts to provide top-notch repairs and maintenance for your vehicle. With 15 years of dedicated service, we've honed our skills to perfection.</p>
+                                <p><i class="fa fa-check text-success me-3"></i>Quality Servicing</p>
+                                <p><i class="fa fa-check text-success me-3"></i>Expert Workers</p>
+                                <p><i class="fa fa-check text-success me-3"></i>Modern Equipment</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="tab-pane-3">
+                        <div class="row g-4">
+                            <div class="col-md-6" style="min-height: 350px;">
+                                <div class="position-relative h-100">
+                                    <img class="position-absolute img-fluid w-100 h-100" src="img/service-3.jpg"
+                                        style="object-fit: cover;" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <h3 class="mb-3">15 Years Of Experience In Auto Servicing</h3>
+                                <p class="mb-4">Trust our seasoned team of automotive experts to provide top-notch repairs and maintenance for your vehicle. With 15 years of dedicated service, we've honed our skills to perfection.</p>
+                                <p><i class="fa fa-check text-success me-3"></i>Quality Servicing</p>
+                                <p><i class="fa fa-check text-success me-3"></i>Expert Workers</p>
+                                <p><i class="fa fa-check text-success me-3"></i>Modern Equipment</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="tab-pane-4">
+                        <div class="row g-4">
+                            <div class="col-md-6" style="min-height: 350px;">
+                                <div class="position-relative h-100">
+                                    <img class="position-absolute img-fluid w-100 h-100" src="img/service-4.jpg"
+                                        style="object-fit: cover;" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <h3 class="mb-3">15 Years Of Experience In Auto Servicing</h3>
+                                <p class="mb-4">Trust our seasoned team of automotive experts to provide top-notch repairs and maintenance for your vehicle. With 15 years of dedicated service, we've honed our skills to perfection.</p>
+                                <p><i class="fa fa-check text-success me-3"></i>Quality Servicing</p>
+                                <p><i class="fa fa-check text-success me-3"></i>Expert Workers</p>
+                                <p><i class="fa fa-check text-success me-3"></i>Modern Equipment</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Service End -->
+
+<!--Desciption Start-->
+
+<div class="description">
+    <section>
+        <h2>Diagnostic Test</h2>
+        <p>Experience the Precision of CarServ's Diagnostic Test</p>
+        <p>Our cutting-edge diagnostic tests are designed to unveil the deepest secrets of your vehicle's health. We employ advanced technology and a meticulous eye for detail to pinpoint even the most hidden issues within your car's intricate systems. With CarServ, you can trust that our diagnostic tests will provide you with an accurate assessment, allowing for a swift and precise repair process. When it comes to your vehicle's well-being, we leave no stone unturned.</p>
+    </section>
+    <section>
+        <h2>Engine Servicing</h2>
+        <p>Unleash the Power of Your Engine with CarServ's Expert Servicing</p>
+        <p>At CarServ, we're more than just technicians; we're engine enthusiasts. Our team of skilled technicians is dedicated to the care of your engine. From routine maintenance to tackling complex repairs, we have the expertise to keep your engine operating at peak performance. We understand that your engine is the heart of your vehicle, and we take pride in ensuring its longevity and optimal functionality.</p>
+    </section>
+    <section>
+        <h2>Tire Replacement</h2>
+        <p>Elevate Your Ride with CarServ's Tire Replacement Service</p>
+        <p>Is it time to refresh your vehicle's grip on the road? CarServ offers a wide selection of top-quality tires to suit your car's specific needs. Our expert technicians will carefully evaluate your vehicle's requirements to ensure a perfect fit. Trust us to enhance your driving experience with tires that not only provide safety but also improve your vehicle's handling and fuel efficiency.</p>
+    </section>
+    <section>
+        <h2>Oil Changing</h2>
+        <p>Protect Your Engine's Lifeline with CarServ's Oil Changing Service</p>
+        <p>Regular oil changes are the cornerstone of engine health, and CarServ is your trusted partner in this essential maintenance task. Our skilled technicians will select the perfect oil and filter for your vehicle, ensuring that your engine operates smoothly and efficiently. With our oil changing service, you'll extend the life of your engine and enjoy peace of mind on the road.</p>
+    </section>
+    <section>
+        <h2>Car Washing</h2>
+        <p>Indulge Your Vehicle with CarServ's Professional Car Washing</p>
+        <p>Your car deserves to shine, and at CarServ, we make it happen. Our car washing service is more than a quick wash; it's a spa day for your vehicle. We employ eco-friendly products and meticulous care to ensure your car looks its best. Our goal is to not just clean your car but to rejuvenate its appearance, leaving you with a vehicle you're proud to drive.</p>
+    </section>
+    <section>
+        <h2>Vacuum Cleaning</h2>
+        <p>Revitalize Your Interior with CarServ's Thorough Vacuum Cleaning</p>
+        <p>A clean car is a happy car, and CarServ understands the importance of a spotless interior. Our vacuum cleaning service is designed to remove every speck of dirt, crumbs, and debris from every nook and cranny. We leave no corner untouched, so you can enjoy the comfort and cleanliness of a pristine interior.</p>
+    </section>
+    <section>
+        <h2>Brake Inspection and Maintenance</h2>
+        <p>Drive Safely with CarServ's Comprehensive Brake Inspection and Maintenance</p>
+        <p>Safety should never be compromised, especially when it comes to your vehicle's brakes. CarServ offers a comprehensive brake inspection and maintenance service to ensure your brakes are in excellent working condition. Our skilled technicians provide thorough checks and maintenance, giving you the peace of mind you need on the road.</p>
+    </section>
+    <section>
+        <h2>Transmission Service</h2>
+        <p>Smooth Shifting, Guaranteed: CarServ's Transmission Service</p>
+        <p>Your vehicle's transmission is a critical component, and CarServ is here to keep it in top shape. Our transmission services encompass fluid changes, repairs, and comprehensive maintenance to ensure your vehicle shifts smoothly and reliably. Trust us to enhance your driving experience with a perfectly operating transmission.</p>
+    </section>
+    <section>
+        <h2>Electrical System Diagnostics</h2>
+        <p>Harness the Power of CarServ's Electrical System Diagnostics</p>
+        <p>Modern vehicles rely heavily on complex electrical systems, and CarServ is your go-to for electrical system diagnostics. If you're experiencing any electrical issues, our diagnostic experts have the knowledge and tools to identify and resolve them efficiently. Rest assured, your vehicle's electronics are in capable hands.</p>
+    </section>
+    <section>
+        <h2>Air Conditioning Service</h2>
+        <p>Stay Cool with CarServ's Air Conditioning Service</p>
+        <p>Don't sweat the heat. CarServ's air conditioning service ensures you stay comfortably cool during hot summer days. We'll keep your A/C system in optimal condition, so you can enjoy every journey in a refreshingly comfortable environment.</p>
+    </section>
+</div>
+<!-- Description End-->
+
+
+<!-- Booking Start -->
+<div class="container-fluid bg-secondary booking my-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container">
+        <div class="row gx-5">
+            <div class="col-lg-6 py-5">
+                <div class="py-5">
+                    <h1 class="text-white mb-4">Certified and Award Winning Car Repair Service Provider</h1>
+                    <p class="text-white mb-0">Discover excellence in automotive care with our certified and
+                        award-winning car repair service. At CarServ, we're not just repairing cars; we're restoring
+                        peace of mind. Our team of highly skilled technicians combines expertise with cutting-edge
+                        technology to ensure your vehicle receives the utmost care it deserves. Trust us to get you
+                        back on the road safely and swiftly. Book your service today for a repair experience like no
+                        other.</p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="bg-primary h-100 d-flex flex-column justify-content-center text-center p-5 wow zoomIn"
+                    data-wow-delay="0.6s">
+                    <h1 class="text-white mb-4">Book For A Service</h1>
+                    <form>
+                        <div class="row g-3">
+                            <div class="col-12 col-sm-6">
+                                <input type="text" class="form-control border-0" placeholder="Your Name"
+                                    style="height: 55px;">
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <input type="tel" class="form-control border-0" placeholder="Your Contact Number"
+                                    maxlength="10" style="height: 55px;">
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <input type="text" class="form-control border-0" placeholder="Car brand"
+                                    style="height: 55px;">
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <input type="text" class="form-control border-0" placeholder="Model Number"
+                                    style="height: 55px;">
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <select class="form-select border-0" style="height: 55px;">
+                                    <option selected>Select A Service</option>
+                                    <option value="1">Gold Service</option>
+                                    <option value="2">Platinum Service</option>
+                                    <option value="3">Diamond Service</option>
+                                </select>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <div class="date" id="date1" data-target-input="nearest"
+                                    style="position: relative;">
+                                    <input type="text" id="serviceDate"
+                                        class="form-control border-0 datetimepicker-input"
+                                        placeholder="Service Date" data-target="#date1" data-toggle="datetimepicker"
+                                        style="height: 55px;">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <textarea class="form-control border-0" placeholder="Any Special Request"
+                                    style="height: 80px;"></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-secondary w-100 py-3" type="submit">Book Now</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Booking End -->
+
+
+ <!-- Testimonial Start -->
+ <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container">
+        <div class="text-center">
+            <h6 class="text-primary text-uppercase">Testimonial</h6>
+            <h1 class="mb-5">Our Clients Say!</h1>
+        </div>
+        <div class="owl-carousel testimonial-carousel position-relative">
+            <div class="testimonial-item text-center">
+                <img class="bg-light rounded-circle p-2 mx-auto mb-3" src="img/testimonial-1.jpg" style="width: 80px; height: 80px;">
+                <h5 class="mb-0">Priya Sharma</h5><br>
+                    <div class="testimonial-text bg-light text-center p-4">
+                <p class="mb-0">Exceptional service! Mahesh and his team at the garage took great care of my car, and it runs like a dream now. Highly recommended!</p>
+                </div>
+            </div>
+            <div class="testimonial-item text-center">
+                <img class="bg-light rounded-circle p-2 mx-auto mb-3" src="img/testimonial-2.jpg" style="width: 80px; height: 80px;">
+                <h5 class="mb-0">Ravi Kumar</h5><br>
+                    <div class="testimonial-text bg-light text-center p-4">
+                <p class="mb-0">I had a fantastic experience with Carserv Garage. They diagnosed and repaired my car's electrical problems with precision. I appreciate their professionalism and fair pricing.</p>
+                </div>
+            </div>
+            <div class="testimonial-item text-center">
+                <img class="bg-light rounded-circle p-2 mx-auto mb-3" src="img/testimonial-3.jpg" style="width: 80px; height: 80px;">
+                <h5 class="mb-0">Arjun Singh</h5><br>
+                    <div class="testimonial-text bg-light text-center p-4">
+                <p class="mb-0">Outstanding service at Carserv Garage! They not only fixed my car's brakes but also provided valuable advice on maintenance. I'm impressed by their expertise and customer care.</p>
+                </div>
+            </div>
+            <div class="testimonial-item text-center">
+                <img class="bg-light rounded-circle p-2 mx-auto mb-3" src="img/testimonial-4.jpg" style="width: 80px; height: 80px;">
+                <h5 class="mb-0">Sneha Kapoor</h5><br>
+                    <div class="testimonial-text bg-light text-center p-4">
+                <p class="mb-0">Carserv Garage is my go-to place for car maintenance. Their team is efficient, and they go the extra mile to ensure my vehicle's optimal performance. Highly recommended!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Testimonial End -->
+
+
+       <!-- Footer Start -->
+       <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Address</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Sarovoday Nagar, Ambarnath, Thane, Maharashtra, 421505</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 9322309947</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>anshul091103@gmail.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://youtube.com/"><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://in.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Opening Hours</h4>
+                    <h6 class="text-light">Monday - Friday:</h6>
+                    <p class="mb-4">09.00 AM - 09.00 PM</p>
+                    <h6 class="text-light">Saturday - Sunday:</h6>
+                    <p class="mb-0">09.00 AM - 12.00 PM</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Services</h4>
+                    <a class="btn btn-link" href="service.html">Diagnostic Test</a>
+                    <a class="btn btn-link" href="service.html">Engine Servicing</a>
+                    <a class="btn btn-link" href="service.html">Tires Replacement</a>
+                    <a class="btn btn-link" href="service.html">Oil Changing</a>
+                    <a class="btn btn-link" href="service.html">Vacuam Cleaning</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">About Us</h4>
+                    <p><a href="about.html">About Us:</a> Discover Our Story and Commitment to Excellence.</p>
+                    <h4 class="text-light mb-4">Contact Us</h4>
+                    <p><a href="contact.html">Contact Us:</a> Reach Out for Any Questions or Concerns.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        Project By: Lalu Sah 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <script>
+        $('form').submit(function (event) {
+            event.preventDefault();
+
+            var selectedService = $('select').val();
+            if (name && contact && carBrand && modelNumber && selectedService !== "Select A Service") {
+                alert("Proceed further on further on our checkout page, if the payment is succeeded you slot has been booked")
+                // Gold Service
+                window.open('https://buy.stripe.com/test_dR66st3oIf3taSQ5kk', '_blank');
+            } else if (selectedService === '2') {
+                // Platinum Service
+                window.open('https://buy.stripe.com/test_7sIbMNbVef3t9OM6op', '_blank');
+            } else if (selectedService === '3') {
+                // Diamond Service
+                window.open('https://buy.stripe.com/test_4gwcQRcZi9J90ecfZ0', '_blank');
+            } else {
+                alert('Please fill in all details');
+            }
+        });
+
+    </script>
+</body>
+
+</html>
